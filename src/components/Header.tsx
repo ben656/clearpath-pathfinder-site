@@ -10,7 +10,6 @@ const Header = () => {
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
     { name: "Services", href: "#services" },
-    { name: "Pricing", href: "#pricing" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -23,7 +22,7 @@ const Header = () => {
             <img 
               src={clearpathLogo} 
               alt="ClearPath Consultancy" 
-              className="h-8 lg:h-10 w-auto"
+              className="h-12 lg:h-16 w-auto"
             />
           </div>
 

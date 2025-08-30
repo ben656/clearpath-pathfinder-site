@@ -101,6 +101,24 @@ const Services = () => {
             Contact Us Today
           </Button>
         </div>
+
+        <div className="text-center mt-16">
+          <div className="max-w-2xl mx-auto">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
+              Tailored Pricing for Every Business
+            </h3>
+            <p className="text-lg text-muted-foreground mb-6">
+              Our pricing is customized to meet your specific business needs and requirements. 
+              Contact us for a personalized consultation and quote.
+            </p>
+            <Button 
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4"
+            >
+              Get Your Custom Quote
+            </Button>
+          </div>
+        </div>
       </div>
     </section>
   );
