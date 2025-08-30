@@ -35,14 +35,10 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
             <div className="space-y-2">
               <div className="text-3xl font-bold text-primary">50+</div>
               <div className="text-muted-foreground">Satisfied Clients</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-primary">10+</div>
-              <div className="text-muted-foreground">Years Experience</div>
             </div>
             <div className="space-y-2">
               <div className="text-3xl font-bold text-primary">100%</div>

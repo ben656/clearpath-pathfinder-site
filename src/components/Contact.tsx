@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -30,11 +30,6 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    {
-      icon: MapPin,
-      title: "Address",
-      details: "123 Business Street\nLondon, UK\nSW1A 1AA"
-    },
     {
       icon: Phone,
       title: "Phone",
@@ -137,7 +132,7 @@ const Contact = () => {
 
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {contactInfo.map((info, index) => (
                 <Card key={index} className="bg-gradient-subtle shadow-elegant border-border hover:shadow-glow transition-smooth">
                   <CardContent className="p-6 text-center">

@@ -2,9 +2,9 @@ import { CheckCircle } from "lucide-react";
 
 const About = () => {
   const values = [
-    "Expert financial guidance tailored to your business",
-    "Proven track record of improving operational efficiency",
-    "Comprehensive support throughout your business journey",
+    "Expert payroll consultancy tailored to your business needs",
+    "Proven track record of streamlining financial processes", 
+    "Comprehensive support for operational efficiency",
     "Trusted by companies across the United Kingdom"
   ];
 
@@ -22,22 +22,24 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At ClearPath Consultancy, we believe every business deserves a clear path to success. 
-                Our mission is to empower companies across the UK by streamlining their financial 
-                processes and enhancing operational efficiency.
+                At ClearPath Consultancy, we specialize in helping businesses streamline their 
+                payroll processes and improve operational efficiency. Our mission is to provide 
+                expert guidance and reliable support to companies across the UK.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With over a decade of experience in business consulting, we provide expert guidance, 
-                tailored solutions, and reliable support. Our team understands that every business 
-                is unique, which is why we take a personalized approach to every client relationship.
+                We understand that effective payroll management is crucial for business success. 
+                Our team provides tailored solutions that ensure compliance, efficiency, and peace 
+                of mind. Every business is unique, which is why we take a personalized approach 
+                to every client relationship.
               </p>
 
               <div className="bg-gradient-subtle p-6 rounded-lg border border-border">
                 <h3 className="text-xl font-semibold text-foreground mb-4">Our Values</h3>
                 <p className="text-muted-foreground">
                   Transparency, reliability, and excellence drive everything we do. 
-                  We're committed to building long-term partnerships that help your business thrive.
+                  We're committed to building long-term partnerships that help your payroll 
+                  processes run smoothly and efficiently.
                 </p>
               </div>
             </div>
@@ -55,8 +57,8 @@ const About = () => {
               
               <div className="bg-card p-6 rounded-lg shadow-elegant border border-border">
                 <blockquote className="text-lg text-muted-foreground italic">
-                  "Our commitment is simple: to provide the clarity and guidance 
-                  your business needs to reach its full potential."
+                  "Our commitment is simple: to provide the clarity and expert payroll 
+                  guidance your business needs to operate efficiently and with confidence."
                 </blockquote>
                 <div className="mt-4 text-sm text-primary font-semibold">
                   — ClearPath Consultancy Team

@@ -13,10 +13,9 @@ const Footer = () => {
   ];
 
   const services = [
-    "Business Advisory",
-    "Payroll Consultancy", 
-    "Financial Process Improvement",
-    "Strategic Planning"
+    "Payroll Setup & Implementation",
+    "Compliance & Regulatory Support", 
+    "Process Optimization & Training"
   ];
 
   return (

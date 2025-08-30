@@ -5,36 +5,36 @@ import { TrendingUp, Users, FileText, ArrowRight } from "lucide-react";
 const Services = () => {
   const services = [
     {
-      icon: TrendingUp,
-      title: "Business Advisory",
-      description: "Strategic guidance to help your business grow and adapt to market changes. We provide insights and recommendations based on industry best practices.",
-      features: [
-        "Strategic planning & analysis",
-        "Market research & insights",
-        "Growth strategy development",
-        "Risk assessment & mitigation"
-      ]
-    },
-    {
       icon: Users,
-      title: "Payroll Consultancy",
-      description: "Comprehensive payroll solutions that ensure compliance and efficiency. From setup to ongoing management, we handle the complexities for you.",
+      title: "Payroll Setup & Implementation",
+      description: "Complete payroll system setup and implementation tailored to your business needs. We ensure everything is configured correctly from day one.",
       features: [
-        "Payroll system implementation",
-        "Compliance & regulatory guidance",
-        "Process optimization",
-        "Staff training & support"
+        "Initial payroll system assessment",
+        "Custom system configuration",
+        "Employee data migration",
+        "Testing & validation"
       ]
     },
     {
       icon: FileText,
-      title: "Financial Process Improvement",
-      description: "Streamline your financial operations with our proven methodologies. We identify inefficiencies and implement solutions that save time and money.",
+      title: "Compliance & Regulatory Support",
+      description: "Stay compliant with UK payroll regulations and requirements. We keep you updated with the latest changes and ensure full compliance.",
       features: [
-        "Process audit & analysis",
-        "Workflow optimization",
-        "System integration",
-        "Performance monitoring"
+        "HMRC compliance guidance",
+        "Auto enrolment support",
+        "Statutory payment calculations",
+        "Regular compliance reviews"
+      ]
+    },
+    {
+      icon: TrendingUp,
+      title: "Process Optimization & Training",
+      description: "Optimize your payroll processes for maximum efficiency and provide comprehensive training to your team for ongoing success.",
+      features: [
+        "Workflow analysis & improvement",
+        "Staff training & documentation",
+        "Best practice implementation",
+        "Ongoing support & guidance"
       ]
     }
   ];
@@ -48,8 +48,8 @@ const Services = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We offer comprehensive consultancy services designed to transform your business operations 
-            and drive sustainable growth.
+            We offer comprehensive payroll consultancy services designed to streamline your 
+            operations and ensure full compliance with UK regulations.
           </p>
         </div>
 
