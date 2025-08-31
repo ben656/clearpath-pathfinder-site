@@ -22,7 +22,7 @@ const Header = () => {
             <img 
               src={clearpathLogo} 
               alt="ClearPath Consultancy" 
-              className="h-12 lg:h-16 w-auto"
+              className="h-16 lg:h-20 w-auto"
             />
           </div>
 
