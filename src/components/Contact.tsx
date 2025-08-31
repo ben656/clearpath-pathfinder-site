@@ -140,7 +140,7 @@ const Contact = () => {
                       <info.icon className="h-6 w-6 text-primary" />
                     </div>
                     <h3 className="font-semibold text-foreground mb-2">{info.title}</h3>
-                    <p className="text-muted-foreground whitespace-pre-line text-sm">
+                    <p className="text-muted-foreground whitespace-pre-line text-sm break-words">
                       {info.details}
                     </p>
                   </CardContent>

@@ -93,12 +93,9 @@ const Testimonials = () => {
               Let us help your business achieve the same level of success. 
               Contact us today to discuss your specific needs.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-md font-semibold transition-smooth shadow-glow">
                 Start Your Success Story
-              </button>
-              <button className="border border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-4 rounded-md font-semibold transition-smooth">
-                View Case Studies
               </button>
             </div>
           </div>
