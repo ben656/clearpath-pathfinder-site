@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="text-xl lg:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
             ClearPath Consultancy helps businesses streamline financial processes 
             and improve operational efficiency. Expert guidance, tailored solutions, 
-            and reliable support across the UK.
+            and reliable support across the UK with flexible pricing to suit your budget.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

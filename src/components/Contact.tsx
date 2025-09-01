@@ -57,7 +57,7 @@ const Contact = () => {
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Ready to transform your business? Contact us today for a free consultation 
-            and discover how ClearPath can help you achieve your goals.
+            and discover how ClearPath can help you achieve your goals with our flexible pricing options.
           </p>
         </div>
 

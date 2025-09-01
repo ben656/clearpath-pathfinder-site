@@ -34,7 +34,7 @@ const Services = () => {
         "Full payroll processing service",
         "Monthly payroll runs & reporting",
         "HMRC submissions & compliance",
-        "Employee self-service portal"
+        "Dedicated account management"
       ]
     },
     {

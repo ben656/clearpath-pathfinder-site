@@ -39,7 +39,7 @@ const About = () => {
                 <p className="text-muted-foreground">
                   Transparency, reliability, and excellence drive everything we do. 
                   We're committed to building long-term partnerships that help your payroll 
-                  processes run smoothly and efficiently.
+                  processes run smoothly and efficiently with flexible pricing that scales with your business.
                 </p>
               </div>
             </div>
