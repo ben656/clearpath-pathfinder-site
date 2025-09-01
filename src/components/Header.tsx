@@ -41,7 +41,11 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button variant="default" className="bg-primary hover:bg-primary/90">
+            <Button 
+              variant="default" 
+              className="bg-primary hover:bg-primary/90"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Get in Touch
             </Button>
           </div>
@@ -77,7 +81,10 @@ const Header = () => {
               <Button 
                 variant="default" 
                 className="w-full mt-4 bg-primary hover:bg-primary/90"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 Get in Touch
               </Button>

@@ -176,6 +176,7 @@ const Contact = () => {
                   <Button 
                     variant="outline" 
                     className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+                    onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                   >
                     Book a Consultation
                   </Button>

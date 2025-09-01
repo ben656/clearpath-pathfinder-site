@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { TrendingUp, Users, FileText, ArrowRight } from "lucide-react";
+import { TrendingUp, Users, FileText, ArrowRight, Calculator } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -24,6 +24,17 @@ const Services = () => {
         "Auto enrolment support",
         "Statutory payment calculations",
         "Regular compliance reviews"
+      ]
+    },
+    {
+      icon: Calculator,
+      title: "Complete Payroll Outsourcing",
+      description: "Let us handle your entire payroll process from start to finish. Focus on your business while we manage all payroll operations with precision and reliability.",
+      features: [
+        "Full payroll processing service",
+        "Monthly payroll runs & reporting",
+        "HMRC submissions & compliance",
+        "Employee self-service portal"
       ]
     },
     {
@@ -53,7 +64,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {services.map((service, index) => (
             <Card key={index} className="bg-white shadow-elegant border-border hover:shadow-glow transition-smooth group">
               <CardHeader className="text-center pb-4">
@@ -81,6 +92,7 @@ const Services = () => {
                 <Button 
                   variant="outline" 
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth group"
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-smooth" />
@@ -97,28 +109,12 @@ const Services = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold shadow-glow transition-smooth"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Contact Us Today
           </Button>
         </div>
 
-        <div className="text-center mt-16">
-          <div className="max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Tailored Pricing for Every Business
-            </h3>
-            <p className="text-lg text-muted-foreground mb-6">
-              Our pricing is customized to meet your specific business needs and requirements. 
-              Contact us for a personalized consultation and quote.
-            </p>
-            <Button 
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4"
-            >
-              Get Your Custom Quote
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   );

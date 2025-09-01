@@ -94,7 +94,10 @@ const Testimonials = () => {
               Contact us today to discuss your specific needs.
             </p>
             <div className="flex justify-center">
-              <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-md font-semibold transition-smooth shadow-glow">
+              <button 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-md font-semibold transition-smooth shadow-glow"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Start Your Success Story
               </button>
             </div>
