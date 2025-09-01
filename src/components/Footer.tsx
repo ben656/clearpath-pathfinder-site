@@ -14,6 +14,7 @@ const Footer = () => {
 
   const services = [
     "Payroll Setup & Implementation",
+    "Complete Payroll Outsourcing",
     "Compliance & Regulatory Support", 
     "Process Optimization & Training"
   ];
